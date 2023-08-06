@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import "../../styles/mixin.scss";
+
+
+.outer{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header{
+    @include wrapper;
+
+    &__titles{
+        display: flex;
+        justify-content: space-between;
+        & span{
+            @include smallText;
+        }
+    }
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    &__pages{
+        display: inline-flex;
+        justify-content: center;
+        align-items:  center;
+        gap: 2em;
+    }
+    &__logo{
+        width: 20vw;
+        max-height: 5vh;
+    }
+    &__burger{
+        margin-right: 8em;
+    }
+
+    &__icons{
+        @include icons;
+    }
+
+}   

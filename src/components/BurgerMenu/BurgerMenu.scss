@@ -1,0 +1,76 @@
+@import "../../styles/mixin.scss";
+.burger-menu {
+  display: flex;
+  height: 40px;
+  width: 100px;
+}
+
+.burger {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 25px;
+  height: 20px;
+  z-index: 20;
+}
+
+
+
+
+
+.burger-line {
+  height: 3px;
+  background-color: #333;
+  transition: all 0.3s;
+}
+
+.burger.open .burger-line:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.burger.open .burger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.open .burger-line:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.menu.open {
+  opacity: 1;
+  pointer-events: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  min-width: 200px; /* Adjust this to control the maximum width of the menu */
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1; /* Ensure the menu overlays other content */
+  padding-left: 15em;
+}
+
+
+.menu.open{
+  & li{
+    @include regularText;
+    color: $gray2;
+    text-transform: uppercase;
+  }
+}
+.submenu{
+  margin-left: 15px;
+  font-size: 14px;
+}

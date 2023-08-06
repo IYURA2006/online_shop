@@ -1,0 +1,37 @@
+@import "../../styles/mixin.scss";
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    &__form{
+
+    }
+    &__information{
+        color: $gray2;
+        @include smallText;
+        margin-bottom: 0.5em;
+    }
+}
+
+.form{
+    & span{
+        @include regularText;
+        color: $black1;
+    }
+    &__button{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        background-color: transparent;
+    }
+    &__input{
+        margin-top: 1em;
+        position: relative;
+        width: 25vw;
+    }
+}
+
+.vertical-line{
+   @include vertical-line;
+}

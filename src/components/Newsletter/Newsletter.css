@@ -1,0 +1,42 @@
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.newsletter__information {
+  color: #4F4F4F;
+  color: #B6B6B6;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 176.5%;
+  margin-bottom: 0.5em;
+}
+
+.form span {
+  color: #B6B6B6;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 176.5%;
+  color: #121212;
+}
+.form__button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: transparent;
+}
+.form__input {
+  margin-top: 1em;
+  position: relative;
+  width: 25vw;
+}
+
+.vertical-line {
+  border-left: 1px solid #B6B6B6;
+  width: 1px;
+  height: 50px;
+}/*# sourceMappingURL=Newsletter.css.map */
