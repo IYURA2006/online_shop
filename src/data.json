@@ -1,7 +1,7 @@
 
 {
     "categories": [
-        {"name": "Menswear", "image": "/assets/images/categories/category_image-1.png" },
+        {"name": "Menswear", "image": "../../public/category_image-1.png" },
         { "name": "Women's clothes", "image": "/assets/images/categories/category_image-2.png" },
         { "name": "Men's Pants", "image": "/assets/images/categories/category_image-3.png" },
         { "name": "Women's Pants", "image": "/assets/images/categories/category_image-4.png" },

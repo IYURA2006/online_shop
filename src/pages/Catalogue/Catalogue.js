@@ -13,7 +13,7 @@ const App = () => {
       <div className="categories">
         {categories.map((category) => (
           <div key={category.name} className="category">
-                        <img src={category.image} alt={category.name} />
+                        <img src={(category.image)} alt={category.name} />
             <h2>{category.name}</h2>
           </div>
         ))}

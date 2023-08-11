@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './BurgerMenu.css'; // Import the SCSS file for styling
-
+import { Link } from 'react-router-dom';
 
 const menuData = [
   {
     id: 1,
     title: 'Home',
+    link: "/",
     subcategories: [
 
     ],
@@ -13,6 +14,7 @@ const menuData = [
   {
     id: 2,
     title: 'Promotion',
+    link: "/promotion",
     subcategories: [
      
     ],
@@ -20,6 +22,7 @@ const menuData = [
   {
     id: 3,
     title: 'Shop',
+    link: "/catalogue",
     subcategories: [
       { id: 11, title: 'Electronic', subcategories: [] },
       { id: 12, title: 'Clothes', subcategories: ["Gentelmen's"," Lady's"] },
@@ -31,6 +34,7 @@ const menuData = [
   {
     id: 4,
     title: 'Contact us',
+    link: "/conctact_us",
     subcategories: [
     
     ],
@@ -53,7 +57,8 @@ const BurgerMenu = () => {
       </div>
       <ul className={`menu ${isOpen ? 'open' : ''}`}>
         {menuData.map((section) => (
-          <li key={section.id}>
+          <Link to={section.link}>
+             <li key={section.id}>
             {section.title}
             {section.subcategories.length > 0 && (
               <ul className="submenu">
@@ -63,6 +68,8 @@ const BurgerMenu = () => {
               </ul>
             )}
           </li>
+          </Link>
+         
         ))}
       </ul>
     </div>

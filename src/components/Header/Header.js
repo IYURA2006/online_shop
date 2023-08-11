@@ -13,6 +13,8 @@ import "./header.css";
 import logo from "../../assets/images/company_logo.svg";
 import BurgerMenu from '../BurgerMenu/BurgerMenu';
 
+import { Link } from 'react-router-dom';
+
 const Header = () => {
   return (
     <div className="outer">
@@ -37,14 +39,14 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="/user">
+            <Link to="/registration">
               <FontAwesomeIcon icon={faUser}  className="nav__icons"/>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/saved">
+            <Link to="/saved">
               <FontAwesomeIcon icon={faHeart}  className="nav__icons"/>
-            </a>
+            </Link>
           </li>
           <li>
             <a href="/basket">
