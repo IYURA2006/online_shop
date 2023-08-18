@@ -1,0 +1,124 @@
+.filter {
+  width: 700px;
+}
+.filter .filter__container {
+  padding: 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter .filter__container .filter__header {
+  font-size: 18px;
+  font-weight: bold;
+}
+.filter .filter__container .filter__buttons {
+  display: flex;
+}
+.filter .filter__container .filter__buttons Button {
+  margin-left: 10px;
+}
+.filter .filter__options {
+  padding: 10px;
+}
+.filter .filter__options .filter__section {
+  margin-bottom: 20px;
+}
+.filter .filter__options .filter__section .filter__subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.filter .filter__options .filter__section .filter__subheader h3 {
+  font-size: 16px;
+  margin: 0;
+}
+.filter .filter__options .filter__section .filter__slider {
+  display: flex;
+  flex-direction: column;
+}
+.filter .filter__options Button {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type=checkbox] {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px #ddd;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked {
+  background-color: #73c0ec;
+}
+
+.color-checkbox {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px #ddd;
+  cursor: pointer;
+}
+.color-checkbox--orange {
+  background-color: #F2994A;
+}
+.color-checkbox--yellow {
+  background-color: #F2C94C;
+}
+.color-checkbox--purple {
+  background-color: #9B51E0;
+}
+.color-checkbox--green {
+  background-color: #219653;
+}
+.color-checkbox--blue {
+  background-color: #2F80ED;
+}
+.color-checkbox--black {
+  background-color: #333333;
+}
+.color-checkbox--white {
+  background-color: #F2F2F2;
+}
+.color-checkbox:checked {
+  border: 0px solid white;
+}
+
+input[type=checkbox]:not(:checked),
+input[type=checkbox]:checked {
+  position: absolute;
+  left: -9999%;
+}
+
+.input__size + label {
+  width: 38px;
+  height: 38px;
+  display: inline-block;
+  padding: 25% 30%;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+  margin-bottom: 10px;
+  color: #b6b6b6;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 176.5%;
+}
+
+.input__size:checked + label {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+}/*# sourceMappingURL=Sort.css.map */

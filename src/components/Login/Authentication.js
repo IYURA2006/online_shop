@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
+import Registration from '../Registration/Register.js';
 
 function CustomTabPanel({ children, value, index }) {
   return (
@@ -43,7 +44,7 @@ export default function BasicTabs() {
         Item One
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        Item Two
+        <Registration/>
       </CustomTabPanel>
     </Box>
   );

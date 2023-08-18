@@ -1,1 +1,135 @@
-/*# sourceMappingURL=Catalogue.css.map */
+body {
+  background-color: #f8f8f8;
+}
+
+.catalogue {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.catalogue__bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar__search {
+  position: relative;
+}
+.bar__search__field {
+  width: 40vw;
+  height: 29px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  padding: 3px 40px;
+}
+.bar__search button {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  color: #121212;
+}
+.bar__filter {
+  color: black;
+}
+
+.products, .categories {
+  background-color: white;
+}
+
+.partners {
+  margin: 0 auto;
+}
+
+.categories {
+  margin-bottom: 2em;
+}
+.categories__item {
+  background-color: #f2f2f2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 15px;
+  position: relative;
+  transition: background 0.5s;
+  text-align: center;
+  color: #b6b6b6;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 176.5%;
+  color: #4f4f4f;
+  font-weight: 300;
+  width: 158px;
+  height: 197px;
+}
+.categories__item img, .categories__item p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.categories__item img {
+  max-width: 100px;
+  max-height: 130px;
+  top: 15%;
+}
+.categories__item p {
+  bottom: 10%;
+}
+.categories__item:hover {
+  background-color: #b6b6b6;
+}
+
+.products {
+  padding: 1em 2em;
+  margin-bottom: 2em;
+}
+.products__item {
+  background-color: #f2f2f2;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 15px;
+  position: relative;
+  transition: background 0.5s;
+  text-align: center;
+  color: #b6b6b6;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 176.5%;
+  color: #4f4f4f;
+  font-weight: 300;
+  height: 150px;
+}
+.products__item img, .products__item p {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.products__item img {
+  max-width: 100px;
+  max-height: 130px;
+  top: 15%;
+}
+.products__item p {
+  bottom: 10%;
+}
+.products__item:hover {
+  background-color: #b6b6b6;
+}
+
+h2 {
+  color: rgba(242, 242, 242, 0.8);
+  font-family: Poppins;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 170.5%;
+  font-size: 30px;
+}
+
+h2, a {
+  color: #4f4f4f;
+}/*# sourceMappingURL=Catalogue.css.map */

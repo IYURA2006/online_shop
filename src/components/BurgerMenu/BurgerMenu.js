@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const menuData = [
   {
-    id: 1,
+    id: 101,
     title: 'Home',
     link: "/",
     subcategories: [
@@ -12,7 +12,7 @@ const menuData = [
     ],
   },
   {
-    id: 2,
+    id: 102,
     title: 'Promotion',
     link: "/promotion",
     subcategories: [
@@ -20,7 +20,7 @@ const menuData = [
     ],
   },
   {
-    id: 3,
+    id: 103,
     title: 'Shop',
     link: "/catalogue",
     subcategories: [
@@ -32,7 +32,7 @@ const menuData = [
     ],
   },
   {
-    id: 4,
+    id: 104,
     title: 'Contact us',
     link: "/conctact_us",
     subcategories: [

@@ -1,48 +1,47 @@
-
-$white: #F2F2F2;
-$gray1: #B6B6B6;
-$gray2 :#4F4F4F;
-$gray6: #F2F2F2;
-$facebook_bg: #3C5A99;
-$twitter_bg: #1DA1F2;
+$white: #f2f2f2;
+$gray1: #b6b6b6;
+$gray2: #4f4f4f;
+$gray6: #f2f2f2;
+$gray3: #f8f8f8;
+$facebook_bg: #3c5a99;
+$twitter_bg: #1da1f2;
 $black1: #121212;
 @mixin smallText {
-    color: $gray1;
-    font-family: Poppins;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 176.5%; 
-  }
-@mixin regularText{
-    color: $gray1;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 176.5%; 
+  color: $gray1;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 176.5%;
 }
-@mixin hugeText{
-    color: rgba(242, 242, 242, 0.80);
-    text-align: right;
-    font-family: Poppins;
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 170.5%; 
+@mixin regularText {
+  color: $gray1;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 176.5%;
 }
-@mixin icons{
+@mixin hugeText {
+  color: rgba(242, 242, 242, 0.8);
+  font-family: Poppins;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 170.5%;
+}
+@mixin icons {
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
   color: $gray1;
-  &:hover{
+  &:hover {
     transform: scale(1.2);
   }
-  &:active{
+  &:active {
     color: $gray2;
   }
 }
-@mixin social_icons{
+@mixin social_icons {
   position: relative;
   background-color: transparent;
   border: 2px solid $gray1;
@@ -54,27 +53,51 @@ $black1: #121212;
   height: 18px;
   margin-right: 1em;
 
-    &:active{
-      transform: scale(0.95);
-    }
+  &:active {
+    transform: scale(0.95);
+  }
 }
 
-@mixin horizontal-line{
-  width:100%; 
-  height:1px; 
+@mixin horizontal-line {
+  width: 100%;
+  height: 1px;
   background: $gray1;
-
 }
-@mixin vertical-line{
+@mixin vertical-line {
   border-left: 1px solid $gray1;
   width: 1px;
   height: 50px;
 }
-@mixin wrapper{
+@mixin wrapper {
   width: 90%;
   max-width: 1200px;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 20px;
 }
 
-
+@mixin selling-item {
+  background-color: $gray6;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 15px;
+  position: relative;
+  transition: background 0.5s;
+  text-align: center;
+  & img,
+  & p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  & img {
+    max-width: 100px;
+    max-height: 130px;
+    top: 15%;
+  }
+  & p {
+    bottom: 10%;
+  }
+  &:hover {
+    background-color: $gray1;
+  }
+}

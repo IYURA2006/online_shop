@@ -5,10 +5,13 @@ import Footer from "./components/Footer/Footer.js";
 import Home from "./pages/Home/Home.js";
 import Catalogue from "./pages/Catalogue/Catalogue.js";
 import Authentication from "./components/Login/Authentication.js";
+import ProductDetails from "./pages/ProductDetails/ProductDetails.js"
 
 import "./styles/reset.css";
 
+
 const App = () => {
+
   return (
     <Router>
       <div className="app">
@@ -18,6 +21,7 @@ const App = () => {
             <Route path="/" exact element={<Home/>} />
             <Route path="/catalogue" element={<Catalogue/>} />
             <Route path="/registration" element={<Authentication/>} />
+            <Route path="/product/:productId" element={<ProductDetails/>} />
           </Routes>
         </main>
         <Footer />

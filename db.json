@@ -1,0 +1,33 @@
+
+{
+  "categories": [
+    {"name": "Menswear", "image": "assets/categories/category_menswear.png" },
+    { "name": "Women's clothes", "image": "assets/categories/category_women-clothes.png" },
+    { "name": "Men's Pants", "image": "assets/categories/category_men-trousers.png" },
+    { "name": "Women's Pants", "image": "assets/categories/category_women-trousers.png" },
+    { "name": "Shoes", "image": "assets/categories/category_shoes.png" },
+    { "name": "Electronic","image": "assets/categories/category_electronic.png" },
+    { "name": "Home Equipment","image": "assets/categories/category_home-equipment.png" },
+    { "name": "Maintenance & Beauty", "image": "assets/categories/category_maintenance-beauty.png"},
+    { "name": "Computer & Accessories", "image": "assets/categories/category_computers.png" },
+    { "name": "Mobile & Accessories", "image": "assets/categories/category_phones.png" }
+  ],
+    "products": [
+      { "id": 1, "name": "T-Shirt Flamengo", "image": "assets/top-items/trending-tshirt.png" },
+      { "id": 2, "name": "HyperX Alloy FPS", "image": "assets/top-items/trending-keyboard.png"},
+      { "id": 3, "name": "Shoes Nike", "image": "assets/top-items/trending-trainers.png"  },
+      { "id": 4, "name": "Sunglasses", "image": "assets/top-items/trending-sunglasses.png" }, 
+      { "id": 5, "name": "Women's Dresses", "image": "assets/top-items/trending-dress.png"  },
+      { "id": 6, "name": "Smart Watch", "image": "assets/top-items/trending-smartwatch.png" },
+      { "id": 7, "name": "T-Shirt Flameng", "image": "assets/top-items/trending-tshirt.png"  }
+    ],
+    "partners": [
+        { "id": 1, "name": "Bri", "image": "assets/partners/bri.png" },
+        { "id": 2, "name": "J&T", "image": "assets/partners/jnt.png" },
+        { "id": 3, "name": "Gopay", "image": "assets/partners/go-pay.png" },
+        { "id": 4, "name": "Mandiri", "image": "assets/partners/mandiri.png" },
+        { "id": 5, "name": "Sicepat", "image": "assets/partners/sicepat.png" },
+        { "id": 6, "name": "Dana", "image": "assets/partners/dana.png" }
+    ]
+  }
+  

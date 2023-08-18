@@ -67,6 +67,7 @@ body {
 }
 
 .footer {
+  background: white;
   width: 100%;
 }
 .footer__top {
@@ -83,14 +84,14 @@ body {
   text-align: center;
 }
 .footer__bottom span {
-  color: #B6B6B6;
+  color: #b6b6b6;
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: 176.5%;
   font-weight: 400;
-  color: #F2F2F2;
+  color: #f2f2f2;
   height: 50px;
   opacity: 60%;
 }
@@ -99,17 +100,17 @@ body {
   margin-top: 2em;
 }
 .grid__component li:first-child {
-  color: #B6B6B6;
+  color: #b6b6b6;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 176.5%;
-  color: #4F4F4F;
+  color: #4f4f4f;
   margin-bottom: 1.5em;
 }
 .grid__component li {
-  color: #B6B6B6;
+  color: #b6b6b6;
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -118,7 +119,7 @@ body {
   margin-bottom: 0.5em;
 }
 .grid__component li a {
-  color: #B6B6B6;
+  color: #b6b6b6;
 }
 .grid__component--payment {
   width: 32px;
@@ -145,8 +146,8 @@ body {
 .social__icons--facebook {
   position: relative;
   background-color: transparent;
-  border: 2px solid #B6B6B6;
-  color: #4F4F4F;
+  border: 2px solid #b6b6b6;
+  color: #4f4f4f;
   border-radius: 50%;
   padding: 10px;
   transition: color 0.5s, background-color 0.5s;
@@ -158,14 +159,14 @@ body {
   transform: scale(0.95);
 }
 .social__icons--facebook:hover {
-  background-color: #3C5A99;
-  color: #F2F2F2;
+  background-color: #3c5a99;
+  color: #f2f2f2;
 }
 .social__icons--instagram {
   position: relative;
   background-color: transparent;
-  border: 2px solid #B6B6B6;
-  color: #4F4F4F;
+  border: 2px solid #b6b6b6;
+  color: #4f4f4f;
   border-radius: 50%;
   padding: 10px;
   transition: color 0.5s, background-color 0.5s;
@@ -178,13 +179,13 @@ body {
 }
 .social__icons--instagram:hover {
   background: linear-gradient(45deg, #f58529, #e1306c);
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 .social__icons--twitter {
   position: relative;
   background-color: transparent;
-  border: 2px solid #B6B6B6;
-  color: #4F4F4F;
+  border: 2px solid #b6b6b6;
+  color: #4f4f4f;
   border-radius: 50%;
   padding: 10px;
   transition: color 0.5s, background-color 0.5s;
@@ -196,7 +197,7 @@ body {
   transform: scale(0.95);
 }
 .social__icons--twitter:hover {
-  color: #1DA1F2;
+  color: #1da1f2;
 }
 .social__logo {
   margin-left: -2em;
@@ -213,5 +214,5 @@ body {
 .horizontal-line {
   width: 100%;
   height: 1px;
-  background: #B6B6B6;
+  background: #b6b6b6;
 }/*# sourceMappingURL=Footer.css.map */
