@@ -1,0 +1,45 @@
+.basket-container {
+  padding: 20px;
+}
+
+.basket-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-info img {
+  max-width: 50px;
+  height: auto;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.item-total {
+  font-weight: bold;
+}
+
+.remove-button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.total-price {
+  text-align: right;
+  margin-top: 20px;
+}/*# sourceMappingURL=Basket.css.map */

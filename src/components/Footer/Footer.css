@@ -66,6 +66,10 @@ body {
   scroll-behavior: smooth;
 }
 
+input[type=radio] {
+  -webkit-appearance: none;
+}
+
 .footer {
   background: white;
   width: 100%;

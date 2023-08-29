@@ -12,10 +12,13 @@ import "./header.css";
 
 import logo from "../../assets/images/company_logo.svg";
 import BurgerMenu from '../BurgerMenu/BurgerMenu';
+import { useBasket } from "../../contexts/BasketContext";
 
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+  const { basket } = useBasket();
+
   return (
     <div className="outer">
       <header className="header">
@@ -55,6 +58,7 @@ const Header = () => {
                 className="nav__icons"
               />
             </a>
+            <span className="cart-count">{basket.length}</span>
           </li>
         </ul>
       </nav>

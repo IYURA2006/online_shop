@@ -13,13 +13,13 @@
     { "name": "Mobile & Accessories", "image": "assets/categories/category_phones.png" }
   ],
     "products": [
-      { "id": 1, "name": "T-Shirt Flamengo", "image": "assets/top-items/trending-tshirt.png" },
-      { "id": 2, "name": "HyperX Alloy FPS", "image": "assets/top-items/trending-keyboard.png"},
-      { "id": 3, "name": "Shoes Nike", "image": "assets/top-items/trending-trainers.png"  },
-      { "id": 4, "name": "Sunglasses", "image": "assets/top-items/trending-sunglasses.png" }, 
-      { "id": 5, "name": "Women's Dresses", "image": "assets/top-items/trending-dress.png"  },
-      { "id": 6, "name": "Smart Watch", "image": "assets/top-items/trending-smartwatch.png" },
-      { "id": 7, "name": "T-Shirt Flameng", "image": "assets/top-items/trending-tshirt.png"  }
+      { "id": 1, "name": "T-Shirt Flamengo", "type":"clothes", "image": "/assets/top-items/trending-tshirt.png", "price": 20.0, "discountPrice": 9.99, "sizes": ["S", "M", "L"], "promotions": ["New Collection", "Popular Item"], "section": "Men's wear" },
+      { "id": 2, "name": "HyperX Alloy FPS", "image": "/assets/top-items/trending-keyboard.png", "price": 49.9, "promotions": ["Popular Item"], "section": "Computer & Accessories"},
+      { "id": 3, "name": "Shoes Nike","type":"shoes", "image": "/assets/top-items/trending-trainers.png", "price": 100.0, "sizes": ["8", "9", "10"], "promotions": ["Popular Item"], "section": "Shoes"},
+      { "id": 4, "name": "Sunglasses", "image": "/assets/top-items/trending-sunglasses.png", "price": 25.0, "promotions": ["Popular Item"], "section": "Menswear"}, 
+      { "id": 5, "name": "Women's Dresses","type":"clothes", "image": "/assets/top-items/trending-dress.png", "price": 149.9, "sizes": ["XS", "S", "M"], "promotions": ["Popular Item"], "section": "Women's clothes"},
+      { "id": 6, "name": "Smart Watch", "image": "/assets/top-items/trending-smartwatch.png", "price": 199.9, "discountPrice": 139.9, "promotions": ["Popular Item"], "section": "Mobile & Accessories"},
+      { "id": 7, "name": "T-Shirt Flamengo","type":"clothes", "image": "/assets/top-items/trending-tshirt.png", "price": 20.0, "discountPrice": 9.99, "sizes": ["S", "M", "L"], "promotions": ["Popular Item"], "section": "Men's wear" }
     ],
     "partners": [
         { "id": 1, "name": "Bri", "image": "assets/partners/bri.png" },
@@ -30,4 +30,3 @@
         { "id": 6, "name": "Dana", "image": "assets/partners/dana.png" }
     ]
   }
-  

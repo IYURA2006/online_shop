@@ -64,4 +64,8 @@ html,
 body {
   height: 100%;
   scroll-behavior: smooth;
+}
+
+input[type=radio] {
+  -webkit-appearance: none;
 }/*# sourceMappingURL=reset.css.map */
