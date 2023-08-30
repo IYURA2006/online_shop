@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const LoginForm = () => {
+const LoginForm = ({ setLoggedInUser }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-  const navigate = useNavigate(); // Initialize the useHistory hook
+  const navigate = useNavigate();
 
   const handleLogin = async () => {
     if (!email || !password) {
@@ -21,7 +21,7 @@ const LoginForm = () => {
 
       if (response.data.length > 0) {
         console.log("Login successful:", response.data[0]);
-        // Navigate to the profile page after successful login
+        setLoggedInUser(response.data[0]); // Set the logged-in user information
         navigate("/profile");
       } else {
         console.error("Login failed: Invalid credentials");

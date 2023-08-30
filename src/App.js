@@ -14,7 +14,7 @@ import "./styles/reset.css";
 
 const App = () => {
   const [loggedInUser, setLoggedInUser] = useState(null);
-  const isAuthenticated = true; // For testing purposes
+  const isAuthenticated = loggedInUser !== null;
 
   return (
     <Router>

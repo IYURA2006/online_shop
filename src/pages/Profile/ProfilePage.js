@@ -10,7 +10,7 @@ const ProfilePage = ({ userId }) => {
   const [password, setPassword] = useState("");
 
   useEffect(() => {
-    axios.get(`http://localhost:3040/users/1`)
+    axios.get(`http://localhost:3040/users/${userId}`)
       .then((response) => {
         setUser(response.data);
         setName(response.data.name);

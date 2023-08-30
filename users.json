@@ -1,11 +1,10 @@
 {
   "users": [
     {
+      "id": 1,
       "name": "Ільницький Юрій",
       "email": "yurchyk2906@gmail.com",
-      "phoneNumber": "0554011355",
-      "password": "1",
-      "id": 1
+      "phoneNumber": "055401135"
     },
     {
       "name": "u",

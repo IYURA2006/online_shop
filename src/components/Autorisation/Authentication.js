@@ -5,7 +5,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Registration from './Register.js';
-import Login from "./Login.js"
+import LoginForm from "./Login.js";
 
 function CustomTabPanel({ children, value, index }) {
   return (
@@ -30,7 +30,7 @@ CustomTabPanel.propTypes = {
   value: PropTypes.number.isRequired,
 };
 
-export default function BasicTabs() {
+export default function BasicTabs({ setLoggedInUser }) {
   const [value, setValue] = useState(0);
 
   return (
@@ -42,10 +42,10 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        <Login/>
+        <LoginForm setLoggedInUser={setLoggedInUser} />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        <Registration/>
+        <Registration />
       </CustomTabPanel>
     </Box>
   );
